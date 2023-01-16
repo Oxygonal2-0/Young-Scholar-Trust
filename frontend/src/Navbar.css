@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap'); 
+
+.navbar-outline{
+    max-height: 40px;
+    min-height: 40px;
+    background-color: #000000D9;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    font-weight: bolder;
+}
+
+.navbar-tabs-text{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.navbar-list-items{
+    list-style: None;
+}
+
+.navbar-list-items > li{
+    display: inline;
+    color: #FFFFFF;
+}
+
+.li-link{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15.5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.li-link:hover{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15.5px;
+    color: #da251c;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #da251c;
+}
+
+.navbar-list-items > li a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-list-items > li a:hover{
+    color:  #da251c;;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.get-involved-title
+{
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.get-involved-tabs{
+    display: none;
+    position: absolute;
+    background-color: #000000D9;
+    top: 0;
+    left:0;
+    margin-top: 52px;
+    margin-left: -20px;
+    z-index: 100;
+    list-style: none;
+    padding: 0px 0px;
+    width: calc(100% + 40px);
+    text-align: center;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.get-involved-tabs > li > .involved-link{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    color:  #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.get-involved-tabs > li:hover{
+    background-color: #fff;
+    color: #da251c;
+}
+
+.get-involved-title:hover .get-involved-tabs{
+    display: block;
+}
+
+/*  Footer CSS start  */
+.footer-main{
+    position: relative;
+    z-index: 3;
+    background-color: #1f1a17;
+    padding: 50px 150px;
+}
+
+.footer-main .footer-main-title{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    border-bottom: 1px solid red;
+    line-height: 1.8rem;
+}
+
+.footer-main .footer-main-main{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-main .footer-main-main > span{
+    margin-left: 20px;
+    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* About US CSS start*/
+
+.background-image{
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    z-index: 0;
+}
+
+.main-tab-div{
+    position: relative;
+    width: 100%;
+}
+
+.main-tab-div .background{
+    position: absolute;
+    left:0;
+    top:0;
+    height: inherit;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-tab-div .tab-description{
+    position: absolute;
+    left:0;
+    top:0;
+    height: inherit;
+    width: 100%; 
+    z-index: 2;
+}
+
+.main-tab-div .tab-description .detail
+{
+    position: relative;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 40px;
+    
+}
+
+.main-tab-div .tab-description .detail > span{
+    border-bottom: 1px solid red;
+    padding-bottom: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* .main-tab-div .background div{
+    height: 500px; 
+} */
+
+
+.tab-detail-grid
+{
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+}
+
+
+.tab-detail-grid .item{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item-motto{
+    background-color: #da251c;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 54px 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Playfair Display" , serif;
+}
+
+.detail > span{
+    font-size: 24px;
+    color: #212529;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.heading-title{
+    color: #DF1009;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.about-overview-p{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+/* Contact Us CSS start */
+.contact-main-right{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    /* color: #FFFFFF; */
+}
+
+.pl-3
+{
+    padding-left: 30px;
+}
+
+.pl-1
+{
+    padding-left: 10px;
+}
+
+.contact-form-outline{
+    background-color: #f1f1f1;
+    padding: 100px 350px;
+}
+
+.contact-form-outline .contact-form-title
+{
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+}
+
+.contact-form-mandatory-field
+{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: right;
+}
+
+.contact-grid{
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 2fr 3fr;
+}
+
+.contact-grid-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.mt-4
+{
+    margin-top: 40px;
+}
+
+.form-control
+{
+    border: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding:12px;
+    border-radius: 3px;
+    width: calc(100% - 24px)
+}
+
+.form-control-select
+{
+    border: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding:12px;
+    border-radius: 3px;
+    width: 100%
+}
+
+.submit-div{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.submit{
+    background-color: #091d32; /* Green */
+    border: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+/*  FAQ Page CSS start */
+
+
+.faq-container{
+    max-width: 100%;
+    margin-top: 40px
+}
+
+.faq{
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.faq.active {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 
+    6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+    content: '\f075';
+    font-family: 'Titillium Web', sans-serif;
+    color: #2ecc71;
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+}
+
+.faq.active::before{
+    color: #3498db;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
+}
+
+.faq-title{
+    margin: 0 35px 0 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.faq-text{
+    display: none;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 30px 0 0;
+}
+
+.faq.active .faq-text{
+    display: block;
+}
+
+.faq-toggle{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.faq-toggle:focus{
+    outline: none;
+}
+
+.faq-toggle .fa-times {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+    display: block;
+    color: white;
+}
+
+.faq.active .faq-toggle .fa-chevron-down{
+    display: none;
+}
+
+.faq.active .faq-toggle {
+    background-color: #9fa4a8;
+}
+
+
+/* Impact Page css start */
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #FFFFFF;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.0);
+}
+
+.image-slider-impact{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.slide-item-title
+{
+    margin-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.slide-item-thought{
+    margin-top: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    padding: 0 50px;
+}
+
+
+/* URL NOT FOUND CSS start */
+
+.url-not-found-div > img{
+    width: 100%;
+}
