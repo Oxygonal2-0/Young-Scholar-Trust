@@ -5,7 +5,6 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import URLNotFound from './components/pages/URLNotFound';
 import WhatWeDo from './components/pages/WhatWeDo';
-import OurWork from './components/pages/OurWork';
 import FAQ from './components/pages/FAQ';
 import Impact from './components/pages/Impact';
 import Gallery from './components/pages/Gallery';
@@ -22,7 +21,6 @@ function App() {
         <Route path="contact" element={<Contact/>}/>
         <Route path="about" element={<About/>}/>
         <Route path='what-we-do' element={<WhatWeDo/>}/>
-        <Route path='our-work' element={<OurWork/>}/>
         <Route path='faq' element={<FAQ/>}/>
         <Route path='impact' element={<Impact/>}/>
         <Route path='gallery' element={<Gallery/>}/>

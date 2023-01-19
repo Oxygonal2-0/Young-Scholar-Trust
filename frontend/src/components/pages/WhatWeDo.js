@@ -16,7 +16,9 @@ const WhatWeDo = () => {
             <div className='tab-detail-grid'>
               <div className='item'>
                 <h3 className='heading-title'>Overview</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, necessitatibus. Rerum modi odit dolorem accusamus, nemo cum autem quia molestiae qui harum corrupti reiciendis! Officia, fugit ipsa! Dolorem, facere, molestiae culpa ipsum ad a at eligendi, eum consequuntur dignissimos nihil perspiciatis iusto! Nobis sint placeat voluptate accusantium, veniam quasi facere?</p>
+                <p className='about-overview-p'>Each sponsor comes in to educate one student.  The sponsor follows the progress through term letters from the student, as well as our reports.  Normally we take students in second year and finance them for three years, by providing rs 25000 each year</p>
+                <p className='about-overview-p'>We have weekly classes online. The students are assigned mentors to take up language skills.  We have also have guest lectures who cover a variety of topics from acupressure to developing a positive mind set.</p>
+                <p className='about-overview-p'>Some of our ex students come in to give advice on how to make the most of college and face work life after that</p>
               </div>
               <div className='item'>
                 <div className='item-motto'>

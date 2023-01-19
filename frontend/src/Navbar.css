@@ -504,3 +504,90 @@
 .url-not-found-div > img{
     width: 100%;
 }
+
+
+/* Join As student css start */
+
+.container{
+    position: relative;
+    width: calc(100% - 30px);
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 15px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.1); */
+}
+
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field label{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+    color: #2e2e2e;
+}
+
+.input-field input, .input-field > select{
+    outline: none;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
+.input-field input:focus,
+.input-field select:focus{
+    box-shadow: 0 3px 6px rgba(63, 50, 50, 0.13);
+}
+
+.input-field select,
+.input-field input[type="date"]{
+    color: #707070;
+}
+
+.input-field input[type="date"]:valid{
+    color: #333;
+}
+
+@media (max-width: 750px) {
+    .container form{
+        overflow-y: scroll;
+    }
+    .container form::-webkit-scrollbar{
+       display: none;
+    }
+    form .fields .input-field{
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field{
+        width: 100%;
+    }
+}
+ 
+.student-undertaking-div{
+    display: flex;
+    margin-top: 20px;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+}

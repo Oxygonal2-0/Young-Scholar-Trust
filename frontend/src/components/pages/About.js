@@ -32,24 +32,3 @@ const About = () => {
 }
 
 export default About
-
-{/* <div className="background">
-          <img src={imageBackground} className="background-image" alt="" />
-        </div>
-        <div className="tab-description">
-          <div className="detail">
-            <span>About Young Scholar Trust</span>
-            <div className='tab-detail-grid'>
-              <div className='item'>
-                <h3 className='heading-title'>Overview</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, necessitatibus. Rerum modi odit dolorem accusamus, nemo cum autem quia molestiae qui harum corrupti reiciendis! Officia, fugit ipsa! Dolorem, facere, molestiae culpa ipsum ad a at eligendi, eum consequuntur dignissimos nihil perspiciatis iusto! Nobis sint placeat voluptate accusantium, veniam quasi facere?</p>
-              </div>
-              <div className='item'>
-                <div className='item-motto'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum maiores dolore nobis corrupti temporibus, totam ullam sit, quibusdam nemo magni aperiam accusantium alias, ut inventore! Eum harum quasi laboriosam quaerat mollitia numquam molestias porro ad, in dolore, dolor perferendis inventore at eius, molestiae voluptates! Neque id nesciunt quidem voluptates molestias.
-                  <p>- Oxygonal</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
