@@ -1,0 +1,267 @@
+@media (width<= 1000px) {
+    .navbar-list-items-bars{
+        display: block;
+    }
+    .show-navbar{
+        display: block;
+    }
+    .hide-navbar{
+        display: none;
+    }
+    .navbar-list-items{
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index : 100;
+        margin-top: 60px;
+        text-align: left;
+        background-color: #000000D9;
+        padding: 0;
+    }
+
+    .navbar-list-items > li{   
+        display: block;
+        text-align: right;
+        padding-left: 100px;
+        /* padding-right: 100px; */
+        padding-top: 10px;
+        padding-bottom: 17.5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color : #fff;
+    }
+
+    /* .active-link
+    {
+        border-bottom: 2px solid #FFFFFF;
+    } */
+
+    .navbar-list-items > li:hover{   
+        color: #da251c;
+        padding-bottom: 15.5px;
+        background-color: #FFFFFF;
+        border-bottom: 2px solid #da251c;
+    }
+    
+    .get-involved-title
+    {
+        position: relative;
+        padding-bottom: 0px;
+    }
+
+    .get-involved-tabs{
+        position: relative;
+    }
+
+    .get-involved-tabs > li:hover{
+        position: relative;
+        display: block;
+    }
+
+    .background-image
+    {
+        height: 100px;
+    }
+
+    .main-tab-div .tab-description .detail
+    {
+        margin-top: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: #FFFFFF;
+        border-radius: 0px;
+        padding: 20px;
+    }
+
+    .tab-detail-grid
+    {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .item-motto{
+        margin-top: 25px;
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+
+    .main-tab-div .tab-description .detail > span
+    {
+        padding-bottom: 2px;
+        font-size: 14px;
+    }
+
+    .heading-title
+    {
+        font-size: 14px;
+        margin: 7px 0px;
+    }
+
+    .about-overview-p
+    {
+        font-size: 12px;
+    }
+
+    
+    /* Footer CSS start */
+    .footer-main{
+        padding: 20px 20px;
+    }
+
+    .footer-main .footer-main-title
+    {
+        font-size: 15px;
+    }
+    
+    .footer-title-bottom-padding
+    {
+        margin-bottom: 10px;
+    }
+
+    .footer-main .footer-main-main
+    {
+        padding-top: 5px;
+    }
+    
+    .footer-main .footer-main-main > span
+    {
+        font-size: 14px;
+    }
+
+    .footer-note
+    {
+        font-size: 12px;
+    }
+
+
+    /* Contact Form */
+    .contact-form-outline{
+        padding: 10px 20px;
+    }
+
+    .contact-main-right
+    {
+        font-size: 12px;
+    }
+
+    .contact-main-right > .pl-3{
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+
+    .contact-main-right > .pl-1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .space{
+        padding-left: 30px;
+    }
+
+    .item > p{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 15px;
+    }
+
+    .contact-form-outline .contact-form-title
+    {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .contact-form-mandatory-field
+    {
+        font-size: 12px;
+        color: red;
+        margin-bottom: 10px;
+    }
+
+    .contact-grid{
+        column-gap: 10px;
+    }
+    
+    .contact-grid-title{
+        font-size: 14px;
+    }
+
+    .mt-4
+    {
+        margin-top: 20px;
+    }
+
+    .form-control
+    {
+        padding: 6px;
+        width: calc(100% - 12px)
+    }
+
+    .submit-div
+    {
+        margin-top: 20px
+    }
+
+    .submit{
+        padding: 3px 30px;
+        font-size: 16px;
+    }
+
+    /* FAQ Page CSS start */
+    .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_row-title-text__1MuhU {
+        font-size: 14px;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 300;
+    }
+
+    .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+        color: var(--row-content-color, black);
+        font-size: var(--row-content-text-size, medium);
+        padding: var(--row-content-padding-top, 0) var(--row-content-padding-right, 0) var(--row-content-padding-bottom, 0) var(--row-content-padding-left, 0);
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .faq-container{
+        max-width: 100%;
+        margin-top: 15px
+    }
+    
+    /* Impact Page CSS start */
+    .image-slider-impact{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .impact-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .slide-item-thought
+    {
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+
+    .slide-item-title
+    {
+        margin-top: 10px;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bolder;
+        font-size: 17px;
+    }
+
+    .gallery-heading-title
+    {
+        font-size: 14px;
+        margin: 7px 0px;
+        margin-top: 15px;
+    }
+
+}
+

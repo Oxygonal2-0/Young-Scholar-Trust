@@ -3,7 +3,7 @@ import React from 'react'
 const Countries = () => {
   return (
     <>
-    <select id="country" name="country" class="form-control-select">
+    <select id="country" name="country" defaultValue='India' className="form-control-select">
         <option value="Afghanistan">Afghanistan</option>
         <option value="Åland Islands">Åland Islands</option>
         <option value="Albania">Albania</option>

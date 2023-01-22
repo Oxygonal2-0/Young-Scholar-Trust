@@ -37,11 +37,11 @@ const stepContent = [
 
         <div className="input-field">
             <label>Gender *</label>
-            <select required>
-                <option disabled selected>Select gender</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Others</option>
+            <select required defaultValue='default'>
+                <option disabled value='default'>Select gender</option>
+                <option value='male'>Male</option>
+                <option value='female'>Female</option>
+                <option value='other'>Others</option>
             </select>
         </div>
 
@@ -78,7 +78,7 @@ const stepContent = [
         <div className="input-field">
             <label>Year of Study *</label>
             <select required>
-                <option disabled selected>Select Year of Study</option>
+                <option disabled selected>Year of Study</option>
                 <option>Second Year</option>
                 <option>Direct Second Year</option>
                 <option>Third Year</option>

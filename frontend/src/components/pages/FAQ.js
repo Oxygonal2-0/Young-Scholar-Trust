@@ -48,7 +48,6 @@ const config = {
 
 const FAQ = () => {
   
-
   return (
     <div className="main-tab-div">
         <div className="background">

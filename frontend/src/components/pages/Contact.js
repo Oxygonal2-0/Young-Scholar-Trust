@@ -19,7 +19,7 @@ const Contact = () => {
                 <p>You can get in touch at the addresses and telephone numbers mentioned or fill in the form to contact us.</p>
               </div>
               <div className='item'>
-                <div className="contact-main-right"> <PhoneIcon className='pl-3'/> <span className='pl-1' style={{"border":"none"}}></span>+91 1234567890 <EmailIcon className='pl-3'/> <span className='pl-1' style={{"border":"none"}}></span>Charuystg@gmail.com</div>
+                <div className="contact-main-right"> <PhoneIcon className='pl-3'/> <span className='pl-1' style={{"border":"none"}}></span>+91 1234567890 <span className="space"/> <EmailIcon className='pl-3'/> <span className='pl-1' style={{"border":"none"}}></span>Charuystg@gmail.com</div>
               </div>
             </div>
           </div>

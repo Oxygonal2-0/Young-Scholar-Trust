@@ -21,7 +21,7 @@ const WhatWeDo = () => {
                 <p className='about-overview-p'>Some of our ex students come in to give advice on how to make the most of college and face work life after that</p>
               </div>
               <div className='item'>
-                <div className='item-motto'>
+                <div className='image-slider-impact'>
                   {<ImageSlider slides={SliderData} />}
                 </div>
               </div>
