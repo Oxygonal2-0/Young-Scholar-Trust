@@ -16,9 +16,10 @@ const WhatWeDo = () => {
             <div className='tab-detail-grid'>
               <div className='item'>
                 <h3 className='heading-title'>Overview</h3>
-                <p className='about-overview-p'>Each sponsor comes in to educate one student.  The sponsor follows the progress through term letters from the student, as well as our reports.  Normally we take students in second year and finance them for three years, by providing rs 25000 each year</p>
-                <p className='about-overview-p'>We have weekly classes online. The students are assigned mentors to take up language skills.  We have also have guest lectures who cover a variety of topics from acupressure to developing a positive mind set.</p>
-                <p className='about-overview-p'>Some of our ex students come in to give advice on how to make the most of college and face work life after that</p>
+                <p className='about-overview-p'>We are a dedicated group of individuals who wanted to make a difference in the lives of young people. We knew that education was the key to unlocking one's full potential, and we wanted to ensure that no one was left behind.</p>
+                <p className='about-overview-p'>Thus, we created a scholarship program that would sponsor students in their second year of college. These students were chosen based on their academic potential and their financial need. As the sponsors of the program, we would follow the progress of the students through term letters and reports, and provide financial assistance of Rs 25,000 each year for three years.</p>
+                <p className='about-overview-p'>We organized weekly classes online for the students, with the aim of helping them develop their language skills. We assigned mentors to guide and support them, and invited guest speakers to talk about a wide range of topics, from acupressure to developing a positive mindset.</p>
+                <p className='about-overview-p'>We also invited some of our past students to come and share their experiences and advice on how to make the most of college and face the challenges of work life after graduation. Thanks to our efforts, many of these students were able to achieve their dreams and make a positive impact on the world. We were proud to have played a small but important role in their success.</p>
               </div>
               <div className='item'>
                 <div className='image-slider-impact'>

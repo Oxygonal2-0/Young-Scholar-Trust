@@ -150,11 +150,11 @@
 
 .footer-note
 {
+    padding: 0px 10px;
     font-family: 'Titillium Web', sans-serif;
 }
 
 /* About US CSS start*/
-
 .background-image{
     width: 100%;
     height: 150px;
@@ -218,7 +218,31 @@
 }
 
 .item-motto{
-    background-color: #da251c;
+    /* background-color: #da251c; */
+    background-color: #e8b48a;
+
+    color: #131b10;
+    border-radius: 5px;
+    padding: 54px 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Playfair Display" , serif;
+}
+
+.item-motto1{
+    /* background-color: #da251c; */
+    background-color: #454622;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 54px 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Playfair Display" , serif;
+}
+
+.item-motto2{
+    /* background-color: #da251c; */
+    background-color: #b89362;
     color: #FFFFFF;
     border-radius: 5px;
     padding: 54px 40px;
@@ -244,6 +268,14 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+.logo-title{
+    text-decoration: none !important;
+}
+
+.logo-link:link, .logo-link:visited, .logo-link:hover,.logo-link:active  {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 
 /* Contact Us CSS start */
@@ -478,7 +510,7 @@
 .impact-image {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .right-arrow {
@@ -556,6 +588,10 @@
     font-family: 'Titillium Web', sans-serif;
     font-style: italic;
     padding: 0 50px;
+    font-size: 20px;
+    /* color: black;
+    font-weight: bold;
+    color: #130e3b; */
 }
 
 
@@ -626,6 +662,14 @@ form .fields .input-field{
     color: #333;
 }
 
+.step-titles-heading
+{
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 @media (max-width: 750px) {
     .container form{
         overflow-y: scroll;
@@ -662,7 +706,6 @@ form .fields .input-field{
 
 .gallery-impact-image
 {
-    
     overflow: hidden;
     height: 300px;
     width:max-content;
@@ -687,3 +730,33 @@ form .fields .input-field{
     font-family: "Playfair Display" , serif;
 }
 
+/* JOIN AS STUDENT CSS START */
+
+.join-detail
+{
+    position: relative;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+
+/* Logo CSS start */
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    height: 75px;
+}
+
+.logo-title
+{
+    font-size: 18px;
+    /* line-height: 100px; */
+}

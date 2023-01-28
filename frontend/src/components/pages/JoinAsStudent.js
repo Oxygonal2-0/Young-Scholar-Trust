@@ -9,7 +9,10 @@ import imageBackground from '../../assets/nature2.jpg';
 import Footer from '../Footer.js';
 import Checkbox from '@mui/material/Checkbox';
 
-const steps = ['Personal Details', 'Educational and Income Details', 'Upload Documents'];
+var isDegree = false;
+
+const steps = ['', '', ''];
+const stepsTitles = ['Personal Details', 'Educational and Income Details', 'Upload Documents'];
 const stepContent = [
   <div className="form first">
     <div className="details personal">
@@ -27,7 +30,7 @@ const stepContent = [
 
         <div className="input-field">
             <label>Email *</label>
-            <input type="text" placeholder="Enter your email" required/>
+            <input type="email" placeholder="Enter your email" required/>
         </div>
 
         <div className="input-field">
@@ -37,11 +40,10 @@ const stepContent = [
 
         <div className="input-field">
             <label>Gender *</label>
-            <select required defaultValue='default'>
-                <option disabled value='default'>Select gender</option>
+            <select required defaultValue='male'>
                 <option value='male'>Male</option>
                 <option value='female'>Female</option>
-                <option value='other'>Others</option>
+                <option value='others'>Others</option>
             </select>
         </div>
 
@@ -61,27 +63,25 @@ const stepContent = [
 
         <div className="input-field">
             <label>Branch *</label>
-            <select required>
-                <option disabled selected>Enter your Branch</option>
-                <option>Computer Engineering</option>
-                <option>Information Technology</option>
-                <option>Electical Engineering</option>
-                <option>Eletronics Engineering</option>
-                <option>Eletronics & Communications Engineering</option>
-                <option>Textile Technology</option>
-                <option>Mechanical Engineering</option>
-                <option>Civil Engineering</option>
-                <option>Production Engineering</option>
+            <select required defaultValue='Computer Engineering'>
+                <option value='Computer Engineering'>Computer Engineering</option>
+                <option value='Information Technology'>Information Technology</option>
+                <option value='Electical Engineering'>Electical Engineering</option>
+                <option value='Eletronics Engineering'>Eletronics Engineering</option>
+                <option value='Eletronics & Communications Engineering'>Eletronics & Communications Engineering</option>
+                <option value='Textile Technology'>Textile Technology</option>
+                <option value='Mechanical Engineering'>Mechanical Engineering</option>
+                <option value='Civil Engineering'>Civil Engineering</option>
+                <option value='Production Engineering'>Production Engineering</option>
             </select>
         </div>
 
         <div className="input-field">
             <label>Year of Study *</label>
-            <select required>
-                <option disabled selected>Year of Study</option>
-                <option>Second Year</option>
-                <option>Direct Second Year</option>
-                <option>Third Year</option>
+            <select required defaultValue='Degree Second Year'>
+                {/* <option disabled value='select'>Year of Study</option> */}
+                <option value='Degree Second Year'>Degree Second Year</option>
+                <option value='Direct Second Year'>Direct Second Year</option>
             </select>
         </div>
       </div>
@@ -121,50 +121,55 @@ const stepContent = [
           <input type="text" placeholder="Enter passing place" required/>
       </div>
 
-      <div className="input-field">
-          <label>Enter HSC passing year (For Degree Students)</label>
+      
+      
+      { (isDegree === true) ? <>
+        <div className="input-field">
+          <label>Enter HSC passing year *</label>
           <input type="text" placeholder="Enter passing year" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter HSC percentages or CPI </label>
+          <label>Enter HSC percentages or CPI *</label>
           <input type="text" placeholder="Enter percentages or CPI" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter HSC passing place </label>
+          <label>Enter HSC passing place *</label>
           <input type="text" placeholder="Enter passing place" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter year of 1<sup>st</sup> year passing (For Degree Students)</label>
+          <label>Enter year of 1<sup>st</sup> year passing (For Degree Students) *</label>
           <input type="text" placeholder="Enter passing year" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter First year CPI </label>
+          <label>Enter 1<sup>st</sup> year CPI *</label>
           <input type="text" placeholder="Enter CPI" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter 1<sup>st</sup> year passing place </label>
+          <label>Enter 1<sup>st</sup> year passing place *</label>
           <input type="text" placeholder="Enter passing place" required/>
-      </div>
-
+      </div></>
+      : 
+      <>
       <div className="input-field">
-          <label>Enter year of Diploma 3<sup>rd</sup> year passing</label>
+          <label>Enter year of Diploma 3<sup>rd</sup> year passing *</label>
           <input type="text" placeholder="Enter passing year" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter Diploma 3<sup>rd</sup> Year percentages or CPI </label>
+          <label>Enter Diploma 3<sup>rd</sup> Year percentages or CPI *</label>
           <input type="text" placeholder="Enter percentages or CPI" required/>
       </div>
 
       <div className="input-field">
-          <label>Enter Diploma 3<sup>rd</sup> Year passing place</label>
+          <label>Enter Diploma 3<sup>rd</sup> Year passing place *</label>
           <input type="text" placeholder="Enter passing place" required/>
       </div>
+      </>}
     </div>
   </div>
   </div>, 
@@ -192,7 +197,8 @@ const stepContent = [
           <input type="text" placeholder="Enter passing year" required/>
       </div>
 
-      <div className="input-field">
+      {(isDegree === true) ? 
+      <><div className="input-field">
           <label>Upload HSC Marksheet</label>
           <input type="text" placeholder="Enter percentages or CPI" required/>
       </div>
@@ -200,12 +206,17 @@ const stepContent = [
       <div className="input-field">
           <label>Upload 1<sup>st</sup> Year Marksheet (For Degree Students)</label>
           <input type="text" placeholder="Enter passing place" required/>
-      </div>
-
+      </div></> : 
+      <>
       <div className="input-field">
           <label>Upload Diploma 3<sup>rd</sup> Year Marksheet (For Direct 2<sup>nd</sup> Year Students)</label>
           <input type="text" placeholder="Enter passing year" required/>
       </div>
+      </>}
+
+      
+
+      
 
      
     </div>
@@ -266,6 +277,7 @@ export default function JoinAsStudent() {
                   <Box> 
                     <div className='container'>
                     <form action="#">
+                      <div className='step-titles-heading'>{stepsTitles[activeStep]}</div>
                       {stepContent[activeStep]}
                     </form>
                     </div>

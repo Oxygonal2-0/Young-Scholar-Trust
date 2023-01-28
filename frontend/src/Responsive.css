@@ -14,27 +14,21 @@
         top: 0;
         z-index : 100;
         margin-top: 60px;
-        text-align: left;
         background-color: #000000D9;
         padding: 0;
     }
 
     .navbar-list-items > li{   
         display: block;
-        text-align: right;
+        text-align: center;
         padding-left: 100px;
-        /* padding-right: 100px; */
+        padding-right: 100px;
         padding-top: 10px;
         padding-bottom: 17.5px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         color : #fff;
     }
-
-    /* .active-link
-    {
-        border-bottom: 2px solid #FFFFFF;
-    } */
 
     .navbar-list-items > li:hover{   
         color: #da251c;
@@ -73,10 +67,47 @@
         padding: 20px;
     }
 
+    .main-tab-div .tab-description .join-detail
+    {
+        margin-top: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: #FFFFFF;
+        border-radius: 0px;
+        padding: 10px 0px;
+    }
+
     .tab-detail-grid
     {
         display: block;
         margin-top: 15px;
+    }
+
+    .step-titles-heading
+    {
+        font-family: 'Titillium Web', sans-serif;
+        margin-bottom: 10px;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    .input-field label{
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: 'Titillium Web', sans-serif;
+        color: #2e2e2e;
+    }
+    .input-field input, .input-field > select{
+        outline: none;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: 'Titillium Web', sans-serif;
+        color: #333;
+        border-radius: 3px;
+        border: 1px solid #aaa;
+        padding: 0 10px;
+        height: 42px;
+        margin: 8px 0;
     }
 
     .item-motto{
@@ -101,7 +132,6 @@
     {
         font-size: 12px;
     }
-
     
     /* Footer CSS start */
     .footer-main{
@@ -233,7 +263,7 @@
     .impact-image {
         width: 150px;
         height: 150px;
-        border-radius: 50%;
+        border-radius: 20px;
     }
 
     .image {
@@ -244,8 +274,9 @@
 
     .slide-item-thought
     {
-        padding: 0px 20px;
+        padding: 0px 0px;
         margin-top: 20px;
+        font-size: 12px;
     }
 
     .slide-item-title
