@@ -1,4 +1,6 @@
 import dotenv from 'dotenv';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 dotenv.config()
 
 import express from 'express';
